@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/addressBook.svg</file>
+        <file>icons/back.svg</file>
+        <file>icons/cansel-collection.svg</file>
+        <file>icons/collect.svg</file>
+        <file>icons/collection.svg</file>
+        <file>icons/logo.png</file>
+        <file>icons/order.svg</file>
+        <file>icons/previous.svg</file>
+        <file>icons/shopping-trolley.svg</file>
+        <file>icons/special-offer.svg</file>
+        <file>icons/time-limit.svg</file>
+        <file>icons/unknownUser.svg</file>
+        <file>icons/left.png</file>
+        <file>icons/right.png</file>
+    </qresource>
+</RCC>

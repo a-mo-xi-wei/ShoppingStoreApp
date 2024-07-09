@@ -1,0 +1,9 @@
+{
+  "beautyMakeup": "/../shopstore/products/information/beautyMakeup/beautyMakeup.json",
+  "clothing": "/../shopstore/products/information/clothing/clothing.json",
+  "digitalEquipment": "/../shopstore/products/information/digitalEquipment/digitalEquipment.json",
+  "foodstuff": "/../shopstore/products/information/foodstuff/foodstuff.json",
+  "furniture": "/../shopstore/products/information/furniture/furniture.json",
+  "homeAppliances": "/../shopstore/products/information/homeAppliances/homeAppliances.json"
+}
+

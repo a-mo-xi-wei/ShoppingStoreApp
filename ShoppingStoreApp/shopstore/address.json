@@ -1,0 +1,24 @@
+[
+    {
+        "receiver": "张三",
+        "phone_number": "13812345678",
+        "address": {
+            "province": "北京市",
+            "city": "北京市",
+            "area": "朝阳区",
+            "detail_address": "朝阳路123号"
+        },
+        "default": true
+    },
+    {
+        "receiver": "李四",
+        "phone_number": "13812345678",
+        "address": {
+            "province": "浙江省",
+            "city": "宁波市",
+            "area": "江北区",
+            "detail_address": "万达广场123号"
+        },
+        "default": false
+    }
+]

@@ -1,0 +1,25 @@
+{
+	"BUILD_DIR" : "F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/ShoppingStoreApp/out/build/ShoppingStoreApp_autogen",
+	"CMAKE_BINARY_DIR" : "F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/ShoppingStoreApp/out/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/ShoppingStoreApp/out/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/ShoppingStoreApp",
+	"CMAKE_SOURCE_DIR" : "F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/ShoppingStoreApp",
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/ShoppingStoreApp/out/build/ShoppingStoreApp_autogen/include",
+	"INPUTS" : 
+	[
+		"F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/ShoppingStoreApp/component/UI/style/pink.css",
+		"F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/ShoppingStoreApp/component/UI/style/black.css",
+		"F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/ShoppingStoreApp/component/UI/style/white.css"
+	],
+	"LOCK_FILE" : "F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/ShoppingStoreApp/out/build/CMakeFiles/ShoppingStoreApp_autogen.dir/AutoRcc_style_3QAQBA35VX_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "style" ],
+	"OUTPUT_CHECKSUM" : "3QAQBA35VX",
+	"OUTPUT_NAME" : "qrc_style.cpp",
+	"RCC_EXECUTABLE" : "F:/Qt/6.5.2/msvc2019_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/ShoppingStoreApp/out/build/CMakeFiles/ShoppingStoreApp_autogen.dir/AutoRcc_style_3QAQBA35VX_Used.txt",
+	"SOURCE" : "F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/ShoppingStoreApp/component/UI/style.qrc",
+	"VERBOSITY" : 0
+}

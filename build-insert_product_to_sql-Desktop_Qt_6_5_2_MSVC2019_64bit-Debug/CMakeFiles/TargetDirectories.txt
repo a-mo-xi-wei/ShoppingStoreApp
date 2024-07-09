@@ -1,0 +1,5 @@
+F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/build-insert_product_to_sql-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/CMakeFiles/insertToSql.dir
+F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/build-insert_product_to_sql-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/CMakeFiles/edit_cache.dir
+F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/build-insert_product_to_sql-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/CMakeFiles/rebuild_cache.dir
+F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/build-insert_product_to_sql-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/CMakeFiles/insertToSql_autogen_timestamp_deps.dir
+F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/build-insert_product_to_sql-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/CMakeFiles/insertToSql_autogen.dir

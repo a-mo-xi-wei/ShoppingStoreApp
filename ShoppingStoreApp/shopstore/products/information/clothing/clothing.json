@@ -1,0 +1,53 @@
+{
+    "kind": "beautyMakeup",
+    "products": [
+        {
+            "number": "00000001",
+            "title": "智能led化妆镜子台式桌面带灯三折叠梳妆美妆放大网红女生日礼物",
+            "classification": [
+                {
+                    "explain": "升级版【3000AH】3档调节+180°旋转+刻字",
+                    "price": "123",
+                    "quantity": 10
+                },
+                {
+                    "explain": "升级版【3000AH】3档调节+180°旋转+3C充电头+刻字",
+                    "price": "123",
+                    "quantity": 10
+                },
+                {
+                    "explain": "升级版【3000AH】3档调节+180°旋转+礼盒+刻字",
+                    "price": "123",
+                    "quantity": 10
+                },
+                {
+                    "explain": "升级版【3000AH】3档调节+180°旋转+3C充电头+礼盒+刻字",
+                    "price": "123",
+                    "quantity": 10
+                }
+            ],
+            "description": {
+                "风格": "北欧风格",
+                "颜色分类": "升级版【3000AH】3档调节+180°旋转+刻字 升级版【3000AH】3档调节+180°旋转+3C充电头+刻字 升级版【3000AH】3档调节+180°旋转+礼盒+刻字 升级版【3000AH】3档调节+180°旋转+3C充电头+礼盒+刻字 ❤免费刻字&amp;代写贺卡❤需要请联系客服备注",
+                "品牌": "ONEFIRE/万火",
+                "包装种类": "礼盒装",
+                "是否发光": "是",
+                "货号": "LED三折美妆镜【C0210012】240318+003"
+            },
+            "image": [
+                "/../../shopstore/products/infomation/beautyMakeup/images/123/1.jpg",
+                "/../../shopstore/products/infomation/beautyMakeup/images/123/2.jpg",
+                "/../../shopstore/products/infomation/beautyMakeup/images/123/3.jpg",
+                "/../../shopstore/products/infomation/beautyMakeup/images/123/4.jpg",
+                "/../../shopstore/products/infomation/beautyMakeup/images/123/5.jpg"
+            ],
+            "description_image":[
+                "/../../shopstore/products/infomation/beautyMakeup/description_image/123/1.jpg",
+                "/../../shopstore/products/infomation/beautyMakeup/description_image/123/2.jpg",
+                "/../../shopstore/products/infomation/beautyMakeup/description_image/123/3.jpg",
+                "/../../shopstore/products/infomation/beautyMakeup/description_image/123/4.jpg",
+                "/../../shopstore/products/infomation/beautyMakeup/description_image/123/5.jpg"
+            ]
+        }
+    ]
+}

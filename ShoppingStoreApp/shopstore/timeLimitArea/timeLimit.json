@@ -1,0 +1,34 @@
+{
+    "products": [
+      {
+        "name": "1",
+        "price": 675,
+        "picturePath": "/../shopstore/timeLimitArea/productPicture/1.jpg"
+      },
+      {
+        "name": "2",
+        "price": 1723.12,
+        "picturePath": "/../shopstore/timeLimitArea/productPicture/2.jpg"
+      },
+      {
+        "name": "3",
+        "price": 856,
+        "picturePath": "/../shopstore/timeLimitArea/productPicture/3.jpg"
+      },
+      {
+        "name": "4",
+        "price": 123,
+        "picturePath": "/../shopstore/timeLimitArea/productPicture/4.jpg"
+      },
+      {
+        "name": "5",
+        "price": 465.65,
+        "picturePath": "/../shopstore/timeLimitArea/productPicture/5.jpg"
+      },
+      {
+        "name": "6",
+        "price": 16.99,
+        "picturePath": "/../shopstore/timeLimitArea/productPicture/6.jpg"
+      }
+    ]
+}

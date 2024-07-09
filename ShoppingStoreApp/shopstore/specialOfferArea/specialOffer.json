@@ -1,0 +1,34 @@
+{
+    "products": [
+      {
+        "name": "1",
+        "price": 700,
+        "picturePath": "/../shopstore/specialOfferArea/productPicture/1.jpg"
+      },
+      {
+        "name": "2",
+        "price": 9800,
+        "picturePath": "/../shopstore/specialOfferArea/productPicture/2.jpg"
+      },
+      {
+        "name": "3",
+        "price": 60.4,
+        "picturePath":  "/../shopstore/specialOfferArea/productPicture/3.jpg"
+      },
+      {
+        "name": "4",
+        "price": 50,
+        "picturePath":  "/../shopstore/specialOfferArea/productPicture/4.jpg"
+      },
+      {
+        "name": "5",
+        "price": 162.4,
+        "picturePath":  "/../shopstore/specialOfferArea/productPicture/5.jpg"
+      },
+      {
+        "name": "6",
+        "price": 123.92,
+        "picturePath":  "/../shopstore/specialOfferArea/productPicture/6.jpg"
+      }
+    ]
+}

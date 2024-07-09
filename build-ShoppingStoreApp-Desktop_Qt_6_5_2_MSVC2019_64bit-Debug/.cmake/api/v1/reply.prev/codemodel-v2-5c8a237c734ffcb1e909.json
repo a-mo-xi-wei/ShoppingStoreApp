@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ShoppingStoreApp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ShoppingStoreApp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ShoppingStoreApp-Debug-8ecf314b16dd8af41289.json",
+					"name" : "ShoppingStoreApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ShoppingStoreApp_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ShoppingStoreApp_autogen-Debug-6ced461edac01bcd2990.json",
+					"name" : "ShoppingStoreApp_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ShoppingStoreApp_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ShoppingStoreApp_autogen_timestamp_deps-Debug-27f4b7ecbaa0b97d2269.json",
+					"name" : "ShoppingStoreApp_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/build-ShoppingStoreApp-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug",
+		"source" : "F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/ShoppingStoreApp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

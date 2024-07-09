@@ -1,0 +1,5 @@
+F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/ShoppingStoreApp/out/build/CMakeFiles/ShoppingStoreApp.dir
+F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/ShoppingStoreApp/out/build/CMakeFiles/edit_cache.dir
+F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/ShoppingStoreApp/out/build/CMakeFiles/rebuild_cache.dir
+F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/ShoppingStoreApp/out/build/CMakeFiles/ShoppingStoreApp_autogen_timestamp_deps.dir
+F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/ShoppingStoreApp/out/build/CMakeFiles/ShoppingStoreApp_autogen.dir

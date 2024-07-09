@@ -1,0 +1,8 @@
+# ninja log v5
+3	329	7412682579334326	insertToSql_autogen/timestamp	7fb79aa75c4316b4
+3	329	7412682579334326	insertToSql_autogen/mocs_compilation.cpp	7fb79aa75c4316b4
+3	329	7412682579334326	F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/build-insert_product_to_sql-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/insertToSql_autogen/timestamp	7fb79aa75c4316b4
+3	329	7412682579334326	F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/build-insert_product_to_sql-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/insertToSql_autogen/mocs_compilation.cpp	7fb79aa75c4316b4
+330	368	7412682581780858	CMakeFiles/insertToSql.dir/insertToSql_autogen/mocs_compilation.cpp.obj	5c1e2efa38c4b38e
+334	1581	7412682593685936	CMakeFiles/insertToSql.dir/main.cpp.obj	de6317d12e7c4d3
+1592	2062	7412682598565481	insertToSql.exe	44fe2a94f45ac517

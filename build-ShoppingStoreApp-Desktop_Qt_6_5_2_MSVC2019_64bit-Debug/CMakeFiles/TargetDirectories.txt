@@ -1,0 +1,5 @@
+F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/build-ShoppingStoreApp-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/CMakeFiles/ShoppingStoreApp.dir
+F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/build-ShoppingStoreApp-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/CMakeFiles/edit_cache.dir
+F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/build-ShoppingStoreApp-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/CMakeFiles/rebuild_cache.dir
+F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/build-ShoppingStoreApp-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/CMakeFiles/ShoppingStoreApp_autogen_timestamp_deps.dir
+F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/build-ShoppingStoreApp-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/CMakeFiles/ShoppingStoreApp_autogen.dir

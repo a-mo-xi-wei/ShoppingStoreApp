@@ -1,0 +1,229 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "F:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "F:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: E:/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/HostX64/x64/cl.exe 
+      Build flags: -DQT_QML_DEBUG
+      Id flags:  
+      
+      The output was:
+      0
+      用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.40.33811 版
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.40.33811.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/build-ShoppingStoreApp-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/CMakeFiles/3.27.7/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1155 (message)"
+      - "F:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "F:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        注意: 包含文件:  F:\\code_review\\Qt-WorkSpace\\fight\\ShoppingStoreApp\\build-ShoppingStoreApp-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "注意: 包含文件:  "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "F:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/build-ShoppingStoreApp-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-dg7sgu"
+      binary: "F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/build-ShoppingStoreApp-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-dg7sgu"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/build-ShoppingStoreApp-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-dg7sgu'
+        
+        Run Build Command(s): "E:/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_fef47
+        [1/2] "E:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\cl.exe"  /nologo /TP   -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_fef47.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_fef47.dir\\ /FS -c F:\\Qt\\Tools\\CMake_64\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp
+        [2/2] cmd.exe /C "cd . && F:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_fef47.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "E:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_fef47.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_fef47.exe /implib:cmTC_fef47.lib /pdb:cmTC_fef47.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "F:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "F:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "F:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "F:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "F:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "F:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6/Qt6Dependencies.cmake:24 (_qt_internal_find_third_party_dependencies)"
+      - "F:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:112 (include)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/build-ShoppingStoreApp-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-gcnjxg"
+      binary: "F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/build-ShoppingStoreApp-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-gcnjxg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6;F:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;F:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/build-ShoppingStoreApp-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-gcnjxg'
+        
+        Run Build Command(s): "E:/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_3d3f2
+        [1/2] "E:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\cl.exe"  /nologo /TP -DCMAKE_HAVE_LIBC_PTHREAD  -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /showIncludes /FoCMakeFiles\\cmTC_3d3f2.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_3d3f2.dir\\ /FS -c F:\\code_review\\Qt-WorkSpace\\fight\\ShoppingStoreApp\\build-ShoppingStoreApp-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-gcnjxg\\src.cxx
+        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_3d3f2.dir/src.cxx.obj 
+        "E:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\cl.exe"  /nologo /TP -DCMAKE_HAVE_LIBC_PTHREAD  -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /showIncludes /FoCMakeFiles\\cmTC_3d3f2.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_3d3f2.dir\\ /FS -c F:\\code_review\\Qt-WorkSpace\\fight\\ShoppingStoreApp\\build-ShoppingStoreApp-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-gcnjxg\\src.cxx
+        F:\\code_review\\Qt-WorkSpace\\fight\\ShoppingStoreApp\\build-ShoppingStoreApp-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-gcnjxg\\src.cxx(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "F:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "F:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "F:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "F:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "F:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6/Qt6Dependencies.cmake:24 (_qt_internal_find_third_party_dependencies)"
+      - "F:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:112 (include)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/build-ShoppingStoreApp-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-f3ej3u"
+      binary: "F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/build-ShoppingStoreApp-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-f3ej3u"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6;F:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;F:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/build-ShoppingStoreApp-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-f3ej3u'
+        
+        Run Build Command(s): "E:/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_399ae
+        [1/2] "E:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\cl.exe"  /nologo /TP   -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /W3 /GR /EHsc -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /showIncludes /FoCMakeFiles\\cmTC_399ae.dir\\CheckFunctionExists.cxx.obj /FdCMakeFiles\\cmTC_399ae.dir\\ /FS -c F:\\code_review\\Qt-WorkSpace\\fight\\ShoppingStoreApp\\build-ShoppingStoreApp-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-f3ej3u\\CheckFunctionExists.cxx
+        [2/2] cmd.exe /C "cd . && F:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_399ae.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "E:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_399ae.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_399ae.exe /implib:cmTC_399ae.lib /pdb:cmTC_399ae.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        \x1b[31mFAILED: \x1b[0mcmTC_399ae.exe 
+        cmd.exe /C "cd . && F:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_399ae.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "E:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_399ae.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_399ae.exe /implib:cmTC_399ae.lib /pdb:cmTC_399ae.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "E:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_399ae.dir\\CheckFunctionExists.cxx.obj /out:cmTC_399ae.exe /implib:cmTC_399ae.lib /pdb:cmTC_399ae.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_399ae.dir/intermediate.manifest CMakeFiles\\cmTC_399ae.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: 无法打开文件“pthreads.lib”\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "F:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "F:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "F:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "F:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "F:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6/Qt6Dependencies.cmake:24 (_qt_internal_find_third_party_dependencies)"
+      - "F:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:112 (include)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/build-ShoppingStoreApp-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-l2s17q"
+      binary: "F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/build-ShoppingStoreApp-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-l2s17q"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6;F:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;F:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/build-ShoppingStoreApp-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-l2s17q'
+        
+        Run Build Command(s): "E:/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_0fba7
+        [1/2] "E:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\cl.exe"  /nologo /TP   -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /W3 /GR /EHsc -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /showIncludes /FoCMakeFiles\\cmTC_0fba7.dir\\CheckFunctionExists.cxx.obj /FdCMakeFiles\\cmTC_0fba7.dir\\ /FS -c F:\\code_review\\Qt-WorkSpace\\fight\\ShoppingStoreApp\\build-ShoppingStoreApp-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-l2s17q\\CheckFunctionExists.cxx
+        [2/2] cmd.exe /C "cd . && F:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_0fba7.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "E:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_0fba7.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_0fba7.exe /implib:cmTC_0fba7.lib /pdb:cmTC_0fba7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        \x1b[31mFAILED: \x1b[0mcmTC_0fba7.exe 
+        cmd.exe /C "cd . && F:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_0fba7.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "E:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_0fba7.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_0fba7.exe /implib:cmTC_0fba7.lib /pdb:cmTC_0fba7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "E:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0fba7.dir\\CheckFunctionExists.cxx.obj /out:cmTC_0fba7.exe /implib:cmTC_0fba7.lib /pdb:cmTC_0fba7.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_0fba7.dir/intermediate.manifest CMakeFiles\\cmTC_0fba7.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: 无法打开文件“pthread.lib”\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "F:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "F:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "F:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "F:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "F:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:30 (_qt_internal_find_third_party_dependencies)"
+      - "F:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:40 (include)"
+      - "F:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "F:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:111 (find_dependency)"
+      - "F:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:39 (_qt_internal_find_qt_dependencies)"
+      - "F:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "F:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:157 (find_package)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/build-ShoppingStoreApp-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-wuberw"
+      binary: "F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/build-ShoppingStoreApp-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-wuberw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6;F:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;F:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/code_review/Qt-WorkSpace/fight/ShoppingStoreApp/build-ShoppingStoreApp-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-wuberw'
+        
+        Run Build Command(s): "E:/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_06e6e
+        [1/2] "E:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\cl.exe"  /nologo /TP -DHAVE_STDATOMIC  -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /showIncludes /FoCMakeFiles\\cmTC_06e6e.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_06e6e.dir\\ /FS -c F:\\code_review\\Qt-WorkSpace\\fight\\ShoppingStoreApp\\build-ShoppingStoreApp-Desktop_Qt_6_5_2_MSVC2019_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-wuberw\\src.cxx
+        [2/2] cmd.exe /C "cd . && F:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_06e6e.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "E:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_06e6e.dir\\src.cxx.obj  /out:cmTC_06e6e.exe /implib:cmTC_06e6e.lib /pdb:cmTC_06e6e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...
